@@ -11,7 +11,40 @@ body{
 	margin: auto;
 	max-width: 600px;
 }
+.content input{
+	border: 1px #999 solid;
+	padding: 10px 20px;
+	width: calc(100% - 42px);
+	margin: 10px 0;
+}
+button{
+	margin-top: 10px;
+	background: #688ccc;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 14px;
+	border-style: none;
+	cursor: pointer;
+}
 h2{
 	margin: 10px 0;
 	color: #fff;
+}
+table{
+	width: 100%;
+	margin: 10px 0;
+}
+table,th,td{
+	border-collapse: collapse;
+	border: 1px solid #333;
+}
+th,td{
+	padding: 5px;
+}
+th{
+	background: #688ccc;
+	color: #fff;
+}
+td{
+	background: #eee;
 }
